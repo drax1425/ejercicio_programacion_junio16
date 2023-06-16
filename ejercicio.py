@@ -35,7 +35,12 @@ while True:
             -------------------------""")
             opcion_carta = int(input("escoja la opción que desea: "))  
             if opcion_carta == 1:
-                
+               print("""Bebidas:
+                    1. CocaCola
+                    2. Sprite
+                    3. Fanta""")
+                tipo_bebida = int(input("que bebida desea :"))
+
         elif opciones == 4:
             pass
         elif opciones == 5:
