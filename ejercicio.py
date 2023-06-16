@@ -22,3 +22,23 @@ while True:
         opciones = int("ingrese una de las opciones :")
         if opciones == 1:
             pass
+        elif opciones == 2:
+            pass
+        elif opciones == 3:
+            print("""Carta:
+            -----------------------
+            1. Bebidas
+            2. Platos
+            3. Postres
+            4. Pedir
+            5. Cancelar
+            -------------------------""")
+            opcion_carta = int(input("escoja la opción que desea: "))  
+            if opcion_carta == 1:
+                
+        elif opciones == 4:
+            pass
+        elif opciones == 5:
+            pass
+        else:
+           break
