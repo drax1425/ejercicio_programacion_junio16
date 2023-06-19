@@ -50,7 +50,7 @@ def validar_cantidad_personas(cantidad):
     return True
 
 def reservar_mesa():
-    rut = int(input("Ingrese el rut del cliente: "))
+    rut = input("Ingrese el rut del cliente: ")
     if not validar_rut(rut):
         print("Rut inválido. Intente nuevamente.")
         return
