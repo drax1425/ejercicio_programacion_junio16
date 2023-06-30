@@ -105,3 +105,16 @@ BEGIN
     END IF;
     
 END trg_puntos;
+
+
+
+import numpy as np
+
+# Crear un arreglo de 3 filas por 3 columnas con ceros
+arreglo = np.zeros((3, 3))
+
+# Recorrer filas y elementos del arreglo
+for fila in arreglo:
+    for elemento in fila:
+        print(int(elemento), end=' ')
+    print()
